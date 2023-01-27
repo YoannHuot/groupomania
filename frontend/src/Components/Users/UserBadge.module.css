@@ -1,0 +1,21 @@
+.userBadge__container {
+	margin-top: 20px;
+	width: 400px;
+	height: 110px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.userBadge__container div {
+	width: 35%;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 1em;
+	border: solid 1px black;
+}

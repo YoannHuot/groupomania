@@ -1,0 +1,147 @@
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 10;
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+	position: fixed;
+	top: 20vh;
+	left: 27.5%;
+	width: 45%;
+	z-index: 100;
+	overflow: hidden;
+	background-color: none;
+	border-radius: 1em;
+	min-height: 43%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card__change {
+	background-color: white;
+	color: #1771e6;
+	width: 80%;
+	height: 70%;
+	font-family: "Roboto";
+	border: dashed 1px #1771e6;
+	border-radius: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.add__activity__button {
+	background-color: black;
+	width: 15%;
+	height: 30px;
+	border-radius: 1em;
+	border: 1px black solid;
+	font-family: "Roboto";
+	cursor: pointer;
+	color: white;
+	margin: 10px;
+}
+
+.add__activity__button__invalid {
+	color: black;
+	width: 15%;
+	height: 30px;
+	border-radius: 1em;
+	font-family: "Roboto";
+	margin: 10px;
+	border-style: none;
+}
+
+.add__activity__button:hover {
+	background-color: white;
+	color: black;
+}
+
+.card__change {
+	background-color: white;
+	color: #1771e6;
+	width: 70%;
+	height: 100%;
+	font-family: "Roboto";
+	border: dashed 1px #1771e6;
+	border-radius: 1em;
+	justify-content: center;
+	align-items: center;
+}
+.card__change:hover {
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+.card__change__inside {
+	position: absolute;
+	left: 370px;
+}
+
+.card__change__label {
+	border-radius: 1em;
+	display: flex;
+	padding: 6px 12px;
+	font-size: 1.5em;
+	opacity: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card__change__label p {
+	border: 1px cadetblue dotted;
+	padding: 10px 20px 10px 20px;
+	border-radius: 1em;
+}
+.card__change__label p:hover {
+	background-color: #dbe7f2;
+	cursor: pointer;
+}
+
+.actions {
+	border-radius: 1em;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.actions button {
+	background-color: #66c52f;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	width: 100px;
+	height: 30px;
+	border-radius: 1em;
+	border: none;
+	font-family: "Roboto";
+	color: white;
+	cursor: pointer;
+	margin: 10px;
+}
+.actions button:hover {
+	background-color: #6fb447;
+}
+
+.card__image {
+	width: 200px;
+	max-height: 200px;
+	object-fit: cover;
+	border: 1px cadetblue dotted;
+	border-radius: 0.5em;
+	height: 50%;
+	padding-top: 20px 100px 100px 20px;
+}
+.card__image:hover {
+	cursor: pointer;
+	opacity: 90%;
+}

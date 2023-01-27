@@ -1,0 +1,167 @@
+.add {
+	width: 50%;
+	height: auto;
+	border-radius: 1em;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	font-family: "Roboto";
+}
+
+.unShowActivity {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 120px;
+}
+.unShowActivity__content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.unShowActivity button {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 5em;
+	height: 40px;
+	width: 80%;
+	border: none;
+	margin-right: 10px;
+	border: 1px solid rgb(167, 167, 167);
+	background-color: white;
+}
+.unShowActivity button:hover {
+	opacity: 80%;
+	cursor: pointer;
+	background-color: whitesmoke;
+}
+.unShowActivity p {
+	opacity: 60%;
+	font-size: 1.2em;
+}
+
+.style__line {
+	width: 80%;
+	border: 1px dotted #becbce;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.unShowActivity h3 {
+	margin-left: 30px;
+}
+.unShowActivity img {
+	object-fit: cover;
+	width: 80px;
+	height: 80px;
+	border-radius: 7em;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.showActivity {
+	display: flex;
+	justify-content: flex-end;
+	height: 20px;
+}
+
+.showActivity button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5em;
+	height: 40px;
+	width: 40px;
+	border: none;
+	font-size: 1.5em;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+.add__activity {
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+
+.add__activity h2 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.add__activity__form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.add__activity__name {
+	width: 70%;
+	height: 30px;
+	border-radius: 0.5em;
+	border: 1px grey;
+	border-style: dotted;
+	margin-bottom: 20px;
+}
+
+.add__activity__input {
+	width: 70%;
+	height: 40px;
+	border-radius: 0.5em;
+	border: 1px grey;
+	border-style: dotted;
+	margin-bottom: 20px;
+}
+.add__activity__input:focus {
+	outline: none;
+}
+
+.add__activity__input.focus {
+	height: 120px;
+}
+
+.add__activity__container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.add__activity__button {
+	background-color: black;
+	width: 15%;
+	height: 30px;
+	border-radius: 1em;
+	border: 1px black solid;
+	font-family: "Roboto";
+	cursor: pointer;
+	color: white;
+	margin: 10px;
+}
+
+.add__activity__button__invalid {
+	color: black;
+	width: 15%;
+	height: 30px;
+	border-radius: 1em;
+	font-family: "Roboto";
+	margin: 10px;
+	border-style: none;
+}
+
+.add__activity__button:hover {
+	background-color: white;
+	color: black;
+}
+
+.add__activity__picture {
+	width: 100px;
+	height: 100px;
+}
+
+.add__activity__picture img {
+	object-fit: cover;
+	width: 100px;
+	height: 100px;
+}

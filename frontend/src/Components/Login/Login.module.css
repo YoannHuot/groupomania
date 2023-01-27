@@ -1,0 +1,44 @@
+.login__form {
+	width: 400px;
+	height: 320px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-items: flex-start;
+	margin-top: 105px;
+	font-family: "Roboto";
+	border-radius: 2em;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.form__module {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	font-family: "Roboto";
+}
+.form__module.invalid input {
+	background: #ffd7d7;
+}
+.form__module input {
+	width: 60%;
+	border-radius: 1em;
+	border: 1px solid black;
+	height: 25px;
+}
+
+.login__button {
+	margin-top: 25px;
+	background-color: white;
+	width: 50%;
+	height: 30px;
+	border-radius: 1em;
+	border: 1px black solid;
+	font-family: "Roboto";
+}
+
+.login__button:hover {
+	background-color: aliceblue;
+}

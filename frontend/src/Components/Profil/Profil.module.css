@@ -1,0 +1,178 @@
+.profil {
+	display: flex;
+	flex-direction: column;
+}
+
+.profil__posts {
+	background-color: white;
+	border: 1px solid black;
+	font-family: "Roboto";
+	margin-left: 40px;
+	padding: 10px;
+	border-radius: 0.75em;
+	cursor: pointer;
+	font-size: 0.9em;
+}
+.profil__posts:hover {
+	background-color: whitesmoke;
+}
+
+.profil__badge {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto";
+	margin-top: 50px;
+	margin-left: 20px;
+	border-radius: 1em;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.profil__badge h2 {
+	margin: 0px;
+}
+
+.profil svg {
+	font-size: 1.5em;
+	padding-right: 40px;
+	border-right: solid 2px black;
+	color: #ff1744;
+}
+
+.profil__container {
+	display: flex;
+	flex-direction: row;
+	width: auto;
+}
+
+.profil__header {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.profil__header svg {
+	border: none;
+	color: grey;
+	cursor: pointer;
+}
+
+.profil__card {
+	border-radius: 1.5em;
+	width: 25%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 50px;
+	margin-left: 30px;
+	font-family: "Roboto";
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.profil__userFirstName {
+	overflow: visible;
+	text-transform: capitalize;
+	padding-left: 20px;
+}
+.profil__userLastName {
+	overflow: visible;
+	text-transform: capitalize;
+	padding-left: 5px;
+}
+
+.profil__card img {
+	width: 40%;
+	height: 100%;
+	object-fit: cover;
+	background-color: grey;
+	border-radius: 1.5em 0em 0em 1em;
+	cursor: pointer;
+}
+
+.profil__card img:hover {
+	opacity: 80%;
+	cursor: pointer;
+}
+
+.profil__details {
+	border-radius: 1.5em;
+	margin: 30px 30px 0px 30px;
+	width: 33%;
+	height: 350px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	font-size: 1.2em;
+	font-family: "Roboto";
+}
+
+.profil__details h3 {
+	padding-left: 15px;
+}
+
+.profil__details div {
+	display: flex;
+	flex-direction: row;
+	padding-left: 65px;
+	align-items: center;
+}
+
+.profil__details p {
+	padding-left: 45px;
+}
+
+.profil__activity {
+	border-radius: 1.5em;
+	margin: 30px 30px 0px 30px;
+	width: 33%;
+	height: 350px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	font-size: 1.2em;
+	font-family: "Roboto";
+}
+
+.profil__activity h3 {
+	padding-left: 15px;
+}
+
+.profil__activity div {
+	display: flex;
+	flex-direction: row;
+	padding-left: 65px;
+	align-items: center;
+}
+
+.profil__activity p {
+	padding-left: 45px;
+}
+
+.bio {
+	border-radius: 1.5em;
+	margin: 30px 30px 0px 30px;
+	width: 33%;
+	height: 350px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	font-size: 1.2em;
+	font-family: "Roboto";
+}
+
+.bio h3 {
+	padding-left: 15px;
+}
+
+.profil__details__bio {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 70%;
+}
+
+.profil__details__bio p {
+	padding: 10px;
+	font-size: initial;
+	text-align: justify;
+	font-weight: lighter;
+	font-family: "Roboto", sans-serif;
+}

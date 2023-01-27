@@ -1,0 +1,26 @@
+.likes__card {
+	height: 40px;
+	width: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1em;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	cursor: pointer;
+}
+.likes__card:hover {
+	background-color: whitesmoke;
+}
+
+.likes__card p {
+	padding-left: 7px;
+}
+.likes__icon {
+	background-color: Transparent;
+	border: none;
+	font-size: 1.05em;
+	height: 20px;
+	color: rgb(121, 200, 114);
+	cursor: pointer;
+}
